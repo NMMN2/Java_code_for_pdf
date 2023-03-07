@@ -2,7 +2,7 @@ package TicTacToe_withObjects;
 
 public class Field {
     private boolean Fieldempty=true;
-    private byte player=0;//0->empty,1->X,2->Y
+    private byte player=0;//0->empty,1->X,2->O
     public Field(){}
     public boolean IsnotEmpty(){
         return !Fieldempty;}
